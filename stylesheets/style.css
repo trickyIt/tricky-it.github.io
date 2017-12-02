@@ -1,0 +1,303 @@
+@font-face {
+font-family: 'Phetsarath_OT'; 
+src: url('phetsarath_ot.eot'); 
+src: url('phetsarath_ot.eot?#iefix') format('embedded-opentype'), 
+url('phetsarath_ot.woff2') format('woff2'), 
+url('phetsarath_ot.woff') format('woff'), 
+url('phetsarath_ot.ttf') format('truetype'),
+url('phetsarath_ot.svg#Phetsarath_OT') format('svg'); 
+font-weight: normal;
+font-style: normal; 
+}
+*{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body{
+	font-family: 'Phetsarath_OT';
+    background-color: #1a1e25;
+    font-size: 17px;
+}
+.web-info{
+	color:#2ecc71;
+	width: 40%; 
+	margin: auto;
+}
+
+.container{
+	position: relative;
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.web-info p b{
+	font-size: 300%;
+}
+.web-info a{
+	color: #2ecc71;
+	font-size: 300%;
+}
+.web-info a:hover{
+	color: #fff;
+}
+
+						/*---------Header--------*/
+
+
+.logo{
+	text-decoration:none;
+	margin: auto;
+	color:#2ecc71;
+	border: 4px solid;
+	padding: 2px 10px;
+}
+
+.web-info ul
+{
+	padding: 0;
+	list-style: none;
+	width: 90%;
+	margin: 25px auto;
+}
+.web-info li{
+	width: 20%;
+	display: inline-block;
+}
+.green{
+	color:#2ecc71;
+}
+
+.text-center{
+	text-align: center;
+}
+
+								/*---------Navigation Bar--------*/
+.menu{
+    display: none;
+    text-decoration: none;
+    padding: 22px 24px;
+    margin: auto;
+    text-align: center;
+}
+.menu b{
+	font-size: 3em;
+	color: #fff;
+}
+.icon {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #2ecc71;
+    margin: 6px 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.navbar{
+	margin: auto;
+	width: 100%;
+	max-height: 104px;
+	background-color: #0f1823;
+	text-align: center;
+	overflow: hidden;
+	-webkit-transition: max-height 2s;
+	transition: max-height 2s;
+}
+.open {
+    max-height: 1000px;
+    -webkit-transition: max-height 2s;
+    transition: max-height 2s;
+}
+.navbar-list{
+	list-style: none;
+	text-decoration: none;
+	padding: 41px 24px;
+	margin: auto;
+	text-align: center;
+}
+.navbar-list li{
+	padding: auto 24px;
+	font-family: sans-serif;
+	display: inline;
+
+}
+.navbar-list li a{
+	text-decoration:none;
+	color: #F9F9f9;
+	font-family: "Phetsarath_OT";
+	font-size: 100%;
+	padding: 0 24px;
+}
+.navbar-list li a:hover{
+	color: #2ecc71;
+}
+
+.fa-home{
+	color: #e74c3c;
+}
+.fa-newspaper-o{
+	color:#3498db;
+}
+.fa-bookmark-o{
+	color:#f38;
+}
+.fa-search{
+	color: #04b771;
+}
+
+.fa-id-card
+{
+	color: #fff;
+}
+ 			/*menu mobile*/
+
+						/*Posts*/
+.index-page{
+	background-color:#ffffff;
+	padding: 72px;
+}
+
+.row{
+	margin: auto;
+
+}
+
+.row a img{
+	width: 100%;
+	height: auto;
+}
+.title a{
+	letter-spacing: 4px;
+	color: #2f323a;
+	text-decoration:none;
+}
+.row p a{
+	text-decoration: none;
+	color: #3498db;
+}
+.row p a:hover{
+	color: #555;
+}
+.page{
+	height: 92px;
+	background-color:  #0f1823;
+}
+
+.row h1 a:hover{
+	color: #2ecc71;
+}
+.meta{
+	color: #b9b9b9;
+}
+.row ul{
+	list-style: none;
+}
+.next-previous{
+	height: 15px;
+	float:left;
+	width: 5%;
+	margin-left: 2%;
+	padding: 4px 8px;
+}
+.next-previous a i:hover{
+	color: #fff;
+}
+.pagination{
+	float:left;
+	width: 80%;
+	font-size: 1em;
+	color: #2ecc71;
+}
+hr{
+	border: none;
+	background-color: #2ecc71;
+	width: 95%;
+	height: 3px;
+    margin: 30px auto;
+}
+.btn{
+	margin-top: 15px;
+}
+/*footer*/
+.footer{
+	padding: 40px auto;
+	color: #2ecc71;
+}
+.footer p a :hover{
+	color: #fff;
+}
+				/*media query*/
+@media only screen and (max-width: 1000px)
+{
+	.container{
+	    width: 100%;
+	}
+
+}
+@media only screen and (max-width: 730px)
+{
+	.menu{
+        display: block;
+}
+@media only screen and (max-width: 650px)
+{
+	.web-info p b
+	{
+		font-size: 200%;
+	}
+	.web-info a{
+		font-size: 200%;
+	}
+	.navbar-list li a{
+		font-size: 
+	}
+	.navbar-list li a.icon {
+    float: right;
+    display: block;
+  	}
+  	.navbar-list{
+  		padding: 0px 24px;
+  	}
+	.navbar-list li{
+	display: block;
+	padding: 0.5em 0px;
+	}
+	
+
+    }
+    .logo{
+    	padding:2px 2px;
+    }
+}
+@media only screen and (max-width: 450px)
+{
+	.web-info p 
+	{
+		font-size: 150%;
+	}
+	.web-info a{
+		font-size: 150%;
+	}
+	.meta{
+		font-size: 80%;
+	}
+}
